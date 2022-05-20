@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.a023b0bd.css",
-    "main.js": "/static/js/main.f800b814.js",
-    "static/media/home.jpg": "/static/media/home.fedafc09fd4712fcd1a2.jpg",
-    "index.html": "/index.html",
-    "main.a023b0bd.css.map": "/static/css/main.a023b0bd.css.map",
-    "main.f800b814.js.map": "/static/js/main.f800b814.js.map"
+    "main.css": "/web-pendidikan/static/css/main.9f90c93b.css",
+    "main.js": "/web-pendidikan/static/js/main.f800b814.js",
+    "static/media/home.jpg": "/web-pendidikan/static/media/home.fedafc09fd4712fcd1a2.jpg",
+    "index.html": "/web-pendidikan/index.html",
+    "main.9f90c93b.css.map": "/web-pendidikan/static/css/main.9f90c93b.css.map",
+    "main.f800b814.js.map": "/web-pendidikan/static/js/main.f800b814.js.map"
   },
   "entrypoints": [
-    "static/css/main.a023b0bd.css",
+    "static/css/main.9f90c93b.css",
     "static/js/main.f800b814.js"
   ]
 }
