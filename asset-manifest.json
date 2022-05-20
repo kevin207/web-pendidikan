@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/web-pendidikan/static/css/main.bef0cd6d.css",
-    "main.js": "/web-pendidikan/static/js/main.704bee1f.js",
+    "main.css": "/web-pendidikan/static/css/main.1a6c02de.css",
+    "main.js": "/web-pendidikan/static/js/main.4bd1e5bc.js",
     "static/media/about.jpg": "/web-pendidikan/static/media/about.821805f82569ab934882.jpg",
     "static/media/program.jpg": "/web-pendidikan/static/media/program.fedafc09fd4712fcd1a2.jpg",
     "static/media/home2.jpg": "/web-pendidikan/static/media/home2.35a9800c2d66e483d18c.jpg",
     "static/media/gallery.jpg": "/web-pendidikan/static/media/gallery.63fdce31276b09b571df.jpg",
     "static/media/contact.jpg": "/web-pendidikan/static/media/contact.4f10f9a014ddf61fe7d6.jpg",
     "index.html": "/web-pendidikan/index.html",
-    "main.bef0cd6d.css.map": "/web-pendidikan/static/css/main.bef0cd6d.css.map",
-    "main.704bee1f.js.map": "/web-pendidikan/static/js/main.704bee1f.js.map"
+    "main.1a6c02de.css.map": "/web-pendidikan/static/css/main.1a6c02de.css.map",
+    "main.4bd1e5bc.js.map": "/web-pendidikan/static/js/main.4bd1e5bc.js.map"
   },
   "entrypoints": [
-    "static/css/main.bef0cd6d.css",
-    "static/js/main.704bee1f.js"
+    "static/css/main.1a6c02de.css",
+    "static/js/main.4bd1e5bc.js"
   ]
 }
