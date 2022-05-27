@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/web-pendidikan/static/css/main.7d23ad20.css",
-    "main.js": "/web-pendidikan/static/js/main.72c030f7.js",
-    "static/media/choice2.jpg": "/web-pendidikan/static/media/choice2.819ea1f1cedd3a0e720a.jpg",
-    "static/media/choice1.jpg": "/web-pendidikan/static/media/choice1.95b6055c5a673bc6ca5a.jpg",
+    "main.css": "/web-pendidikan/static/css/main.16539b6a.css",
+    "main.js": "/web-pendidikan/static/js/main.229b0d53.js",
+    "static/media/testimonial-header.jpg": "/web-pendidikan/static/media/testimonial-header.9e5e6eb3716d511134e9.jpg",
+    "static/media/home.jpg": "/web-pendidikan/static/media/home.6736729b9a41bd71a23a.jpg",
+    "static/media/choice.jpg": "/web-pendidikan/static/media/choice.95b6055c5a673bc6ca5a.jpg",
     "static/media/gallery.jpg": "/web-pendidikan/static/media/gallery.81b1102ead669cfed500.jpg",
-    "static/media/home2.jpg": "/web-pendidikan/static/media/home2.35a9800c2d66e483d18c.jpg",
-    "static/media/program.jpg": "/web-pendidikan/static/media/program.098e9518dfa870a7ee9d.jpg",
-    "static/media/about.jpg": "/web-pendidikan/static/media/about.cd7b979469876203b165.jpg",
-    "static/media/contact.jpg": "/web-pendidikan/static/media/contact.58330fd3e060ae218188.jpg",
+    "static/media/program-header.jpg": "/web-pendidikan/static/media/program-header.702a5b6a2ac0ea83bda0.jpg",
+    "static/media/avatar.jpg": "/web-pendidikan/static/media/avatar.5a94ae5bda041ba7fa1d.jpg",
     "index.html": "/web-pendidikan/index.html",
-    "main.7d23ad20.css.map": "/web-pendidikan/static/css/main.7d23ad20.css.map",
-    "main.72c030f7.js.map": "/web-pendidikan/static/js/main.72c030f7.js.map"
+    "main.16539b6a.css.map": "/web-pendidikan/static/css/main.16539b6a.css.map",
+    "main.229b0d53.js.map": "/web-pendidikan/static/js/main.229b0d53.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d23ad20.css",
-    "static/js/main.72c030f7.js"
+    "static/css/main.16539b6a.css",
+    "static/js/main.229b0d53.js"
   ]
 }
