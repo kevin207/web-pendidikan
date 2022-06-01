@@ -1,0 +1,44 @@
+.testimonial-video-wrap {
+  display: grid;
+  background: white;
+  grid-template-columns: 1fr 1.3fr;
+  gap: 1rem;
+  padding: 2rem 1rem;
+  border-radius: 10px;
+}
+
+.testimonial-video-left {
+  padding: 0 1.2rem 0 1rem;
+}
+
+.testimonial-video-left-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #123c4a;
+}
+
+.testimonial-video-left-name {
+  font-size: 1.4rem;
+  color: #ec994b;
+  margin-top: 1.5rem;
+}
+
+.testimonial-video-left-quote {
+  margin-top: 1rem;
+}
+
+.testimonial-video-left-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #123c4a;
+}
+
+.testimonial-video-right {
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial-video {
+  border-radius: 10px;
+  width: 100%;
+}

@@ -1,0 +1,5 @@
+.contact-section {
+  height: 95vh;
+  background-image: url(../../assets/contact.jpg);
+  background-size: cover;
+}

@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  font-family: "Poppins", sans-serif;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+html {
+  scrollbar-width: none;
+}
+
+/* BS NAV */
+.container {
+  max-width: none !important;
+  padding: 0.3rem 5% !important;
+}
+.nav-color {
+  /* background: #1f2d48 !important; */
+  background: #123c4a !important;
+}
+.navbar-collapse {
+  flex-grow: 0 !important;
+}
+.navbar-nav {
+  gap: 1rem !important;
+}
+
+a.navbar-brand {
+  font-size: 1.6rem;
+}
+
+a.nav-link:hover {
+  opacity: 1;
+}
+a.active.nav-link {
+  opacity: 1;
+}
+
+a.nav-link,
+a.nav-link::after,
+a.nav-link::before {
+  transition: all 0.5s !important;
+  position: relative;
+}
+a.nav-link::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: ".";
+  color: transparent;
+  background: #aaa;
+  height: 2px;
+}
+a.nav-link:hover:after {
+  width: 80%;
+}
+/* BS NAV */
+
+/* FOOTER */
+.footer-wrap {
+  z-index: 100;
+}
+.top-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15rem;
+  justify-items: center;
+  padding: 4rem 12.5% 4rem 12.5%;
+}
+.footer-title {
+  font-weight: bold;
+  color: #ec994b;
+}
+.footer-desc {
+  color: #73777b;
+}
+.middle-footer {
+  display: flex;
+  gap: 5rem;
+  width: fit-content;
+  margin: auto;
+  align-items: center;
+}
+.footer-icon {
+  cursor: pointer;
+  opacity: 0.8;
+  transition: all ease 250ms;
+}
+.footer-icon.facebook {
+  color: #4267b2;
+  font-size: 2.5rem;
+}
+.footer-icon.youtube {
+  color: #d12a2a;
+  font-size: 2.8rem;
+}
+.footer-icon-ri {
+  cursor: pointer;
+  opacity: 0.8;
+  transition: all ease 250ms;
+}
+.footer-icon-ri.whatsapp {
+  color: #25d366;
+  font-size: 3rem;
+}
+.footer-icon-ri.instagram {
+  color: #e1306c;
+  font-size: 2.7rem;
+}
+.footer-icon-ri:hover,
+.footer-icon:hover {
+  opacity: 1;
+}
+.bottom-footer {
+  text-align: center;
+  padding: 2rem 0 2rem 0;
+  font-size: 0.9rem;
+  /* background: #1f2d48; */
+  background: #123c4a;
+  color: white;
+}
+/* FOOTER */
+
+/* MEDIA QUERIES (MEDIUM DEVICES) */
+@media screen and (max-width: 1024px) {
+  .top-footer {
+    gap: 12rem;
+  }
+}
+
+/* MEDIA QUERIES (SMALL DEVICES) */
+@media screen and (max-width: 600px) {
+  /* FOOTER */
+  .footer-wrap {
+    -webkit-box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.191);
+    -moz-box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.191);
+    box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.191);
+    background: #f1eee9;
+    padding-top: 0.5rem;
+  }
+  .top-footer {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .middle-footer {
+    gap: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .bottom-footer {
+    text-align: center;
+    padding: 1rem 0 1.5rem 0;
+    font-size: 0.8rem;
+    color: white;
+  }
+}

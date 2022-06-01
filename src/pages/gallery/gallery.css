@@ -1,0 +1,88 @@
+.gallery-section {
+  background-image: url(../../assets/gallery.jpg);
+  background-size: cover;
+  height: 100%;
+  color: white;
+  padding-bottom: 3rem;
+}
+
+.gallery-item {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  padding-top: 2.5rem;
+}
+
+.media-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 70%;
+  margin: auto;
+  gap: 1rem;
+}
+
+.media-title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.media-img {
+  width: 100%;
+  border-radius: 0.5rem;
+  border: 2px solid rgb(169, 169, 169);
+  transition: all ease-in 300ms;
+}
+
+.media-img:hover {
+  border: 2px solid white;
+}
+
+.carousel-item {
+  padding-bottom: 3rem !important;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  margin-top: 2rem;
+  height: 3rem !important;
+  width: 3rem !important;
+}
+
+.carousel-indicators {
+  margin-bottom: 0rem !important;
+}
+
+/* .carousel-indicators [data-bs-target] {
+  background-color: orange;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(31%) sepia(70%) saturate(3081%) hue-rotate(3deg) brightness(102%) contrast(108%) !important;
+} */
+
+/* MEDIA QUERIES (MEDIUM DEVICES) */
+@media screen and (max-width: 1024px) {
+}
+
+/* MEDIA QUERIES (SMALL DEVICES) */
+@media screen and (max-width: 600px) {
+  .gallery-item {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    padding-top: 2.5rem;
+  }
+
+  .media-wrap {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    height: 1.5rem !important;
+    width: 1.5rem !important;
+  }
+}
